@@ -1,14 +1,14 @@
 package pat;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Test {
 	public static void main(String[] args) {
-		System.out.println('a' + 'b');
-		String[] s= new String[0];
-		Arrays.sort(s);
-		Character c = '1';
-		System.out.println(Character.isUpperCase(c));
-		System.out.printf("%02d", 1);
+		Scanner in = new Scanner(System.in);
+		String s = in.nextLine();
+		String t = in.nextLine();
+		System.out.println(s);
+		System.out.println(t);
 	}
 }
